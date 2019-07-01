@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Lost&Found</title>
+    <meta name="description" content="Find your near and dear ones in case of a natural calamity.">
+    <meta name="keywords" content="Find your near and dear ones in case of a natural calamity.">
+
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway|Candal">
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+    <div class="col-md-8 col-sm-8 marb20">
+        <div class="contact-info">
+            <h3 class="cnt-ttl"></h3>
+            <div class="space"></div>
+            <div id="sendmessage">Your message has been sent. Thank you!</div>
+            <div id="errormessage"></div>
+            <form action="" method="post" role="form" class="contactForm">
+                <div class="form-group">
+                    <input type="text" name="name" class="form-control br-radius-zero" id="name"
+                        placeholder="Suspect Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                    <div class="validation"></div>
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control br-radius-zero" name="subject" id="subject"
+                        placeholder="Subject" data-rule="minlen:4"
+                        data-msg="Please enter at least 8 chars of subject" />
+                    <div class="validation"></div>
+                </div>
+                <div class="form-group">
+                    <textarea class="form-control br-radius-zero" name="message" rows="5" data-rule="required"
+                        data-msg="Please write something for us" placeholder="Message"></textarea>
+                    <div class="validation"></div>
+                </div>
+
+                <div class="form-action">
+                    <button type="submit" class="btn btn-form">Send Message</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
