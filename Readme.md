@@ -2,15 +2,15 @@
 
 ## Installation
 
+Use git to install LostAndFound
 ```bash
-
+git clone https://github.com/nimishbongale/LostAndFound.git
 ```
+```cd``` into LostAndFound.
 
-## Usage
+Open ```index.html``` in your preferred brower.
 
-```python
-
-```
+Hosted on [github pages](https://nimishbongale.github.io/LostAndFound/)
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
@@ -18,3 +18,4 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 Please make sure to update tests as appropriate.
 
 ## License
+[MIT](https://opensource.org/licenses/MIT)
